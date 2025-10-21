@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Native Narrative LLC — Visit Mnisota</title>
+  <meta name="description" content="Indigenous-led storytelling, tours, and cultural programs in Mni Sota Makoce.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: light; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Arial; }
+    .container { max-width: 72rem; }
+    /* Focus ring for accessibility */
+    a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #111827; outline-offset: 2px; border-radius: 0.5rem; }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/80 border-b border-neutral-200">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="h-16 flex items-center justify-between">
+        <a href="#home" class="flex items-center gap-3">
+          <div aria-hidden="true" class="w-10 h-10 rounded-2xl bg-gradient-to-br from-amber-500 to-rose-500 grid place-items-center shadow-sm">
+            <span class="text-white font-black">NN</span>
+          </div>
+          <div class="leading-tight">
+            <div class="font-bold tracking-tight">The Native Narrative LLC</div>
+            <div class="text-xs text-neutral-500">Visit Mnisota — Indigenous‑led storytelling &amp; tours</div>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="#home" class="text-sm text-neutral-700 hover:text-neutral-900">Home</a>
+          <a href="#tours" class="text-sm text-neutral-700 hover:text-neutral-900">Tours</a>
+          <a href="#programs" class="text-sm text-neutral-700 hover:text-neutral-900">Programs</a>
+          <a href="#resources" class="text-sm text-neutral-700 hover:text-neutral-900">Resources</a>
+          <a href="#about" class="text-sm text-neutral-700 hover:text-neutral-900">About</a>
+          <a href="#contact" class="text-sm text-neutral-700 hover:text-neutral-900">Contact</a>
+          <a href="#contact" class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-neutral-900 text-white text-sm font-medium hover:bg-neutral-800">Book a tour
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </nav>
+
+        <button id="menuBtn" class="md:hidden p-2" aria-label="Toggle menu">
+          <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+          <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileNav" class="md:hidden border-t border-neutral-200 hidden">
+      <div class="px-4 py-3 flex flex-col gap-3">
+        <a href="#home" class="text-sm">Home</a>
+        <a href="#tours" class="text-sm">Tours</a>
+        <a href="#programs" class="text-sm">Programs</a>
+        <a href="#resources" class="text-sm">Resources</a>
+        <a href="#about" class="text-sm">About</a>
+        <a href="#contact" class="text-sm">Contact</a>
+        <a href="#contact" class="inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-neutral-900 text-white text-sm font-medium w-fit">Book a tour
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10">
+      <div class="h-full w-full bg-gradient-to-b from-sky-100 via-amber-50 to-white"></div>
+    </div>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+      <div class="max-w-2xl">
+        <span class="inline-flex items-center gap-2 rounded-full bg-white/80 backdrop-blur px-3 py-1 text-xs text-neutral-700 shadow-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l7 4v5c0 5-3.5 9-7 9s-7-4-7-9V7l7-4z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Indigenous‑led • Minnesota &amp; Mni Sota Makoce
+        </span>
+        <h1 class="mt-4 text-4xl md:text-6xl font-extrabold tracking-tight">
+          Story‑first tours, trainings &amp; cultural experiences
+        </h1>
+        <p class="mt-4 text-lg text-neutral-700">
+          We share authentic narratives of Minnesota’s 11 Tribal Nations through place‑based tours, workshops, and consulting that center community, history, and living cultures.
+        </p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+          <a href="#tours" class="rounded-2xl px-5 py-3 bg-neutral-900 text-white text-sm font-semibold hover:bg-neutral-800 inline-flex items-center gap-2">
+            Explore tours
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19l9-7-9-7v14z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#programs" class="rounded-2xl px-5 py-3 bg-white text-neutral-900 border border-neutral-300 text-sm font-semibold hover:bg-neutral-50 inline-flex items-center gap-2">
+            Cultural programs
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V5l16 7-16 7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="py-12 md:py-16 border-t border-neutral-200 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-6 flex gap-3">
+        <div class="shrink-0 rounded-xl bg-neutral-900/90 text-white p-2" aria-hidden="true">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none"><path d="M3 10l9-7 9 7v7a4 4 0 01-4 4h-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="font-semibold">Franklin Ave Cultural Corridor</div>
+          <p class="text-sm text-neutral-600 mt-1">Signature walking tour of the American Indian Cultural Corridor in Minneapolis.</p>
+        </div>
+      </div>
+      <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-6 flex gap-3">
+        <div class="shrink-0 rounded-xl bg-neutral-900/90 text-white p-2" aria-hidden="true">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2c3.5 3.5 5.5 7.5 5.5 10S15.5 18.5 12 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="font-semibold">Visit Mnisota storytelling</div>
+          <p class="text-sm text-neutral-600 mt-1">Native‑led platform amplifying contemporary stories, arts, and places across the state.</p>
+        </div>
+      </div>
+      <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-6 flex gap-3">
+        <div class="shrink-0 rounded-xl bg-neutral-900/90 text-white p-2" aria-hidden="true">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none"><path d="M12 20h9M3 20h9M7 20V4m10 0v16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <div class="font-semibold">Workshops &amp; Consulting</div>
+          <p class="text-sm text-neutral-600 mt-1">Culturally grounded trainings for nonprofits, schools, and teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tours -->
+  <section id="tours" class="py-16 bg-neutral-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="md:flex items-end justify-between gap-8">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Featured tours</h2>
+          <p class="mt-2 text-neutral-700 max-w-2xl">All experiences are custom‑sculpted to your goals. Accessibility‑minded, youth‑friendly options available.</p>
+        </div>
+        <a href="#contact" class="mt-4 md:mt-0 inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-neutral-900 text-white text-sm font-medium hover:bg-neutral-800">Request dates
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-8">
+        <article class="group rounded-2xl overflow-hidden border border-neutral-200 bg-white hover:shadow-md transition">
+          <div class="aspect-[4/3] bg-gradient-to-br from-amber-200 to-sky-200" aria-hidden="true"></div>
+          <div class="p-5">
+            <h3 class="font-semibold tracking-tight text-lg">American Indian Cultural Corridor Walk</h3>
+            <p class="text-sm text-neutral-600 mt-1">1.5–2 hrs • Franklin Ave, Minneapolis</p>
+            <p class="text-sm text-neutral-700 mt-2">A place‑based intro to historical and contemporary Native presence — signage, centers, and community‑led initiatives.</p>
+            <div class="mt-4">
+              <a href="#contact" class="text-sm font-medium text-neutral-900 inline-flex items-center gap-1 border-b border-neutral-900/40">Check availability
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="group rounded-2xl overflow-hidden border border-neutral-200 bg-white hover:shadow-md transition">
+          <div class="aspect-[4/3] bg-gradient-to-br from-rose-200 to-amber-100" aria-hidden="true"></div>
+          <div class="p-5">
+            <h3 class="font-semibold tracking-tight text-lg">Twin Cities Indigenous History Tour</h3>
+            <p class="text-sm text-neutral-600 mt-1">2–4 hrs • Minneapolis–St Paul</p>
+            <p class="text-sm text-neutral-700 mt-2">Key landmarks across Mni Sota Makoce — Bdote, MAIC, Little Earth, and arts/culture hubs.</p>
+            <div class="mt-4">
+              <a href="#contact" class="text-sm font-medium text-neutral-900 inline-flex items-center gap-1 border-b border-neutral-900/40">Check availability
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="group rounded-2xl overflow-hidden border border-neutral-200 bg-white hover:shadow-md transition">
+          <div class="aspect-[4/3] bg-gradient-to-br from-sky-200 to-emerald-100" aria-hidden="true"></div>
+          <div class="p-5">
+            <h3 class="font-semibold tracking-tight text-lg">Custom Group / School Experience</h3>
+            <p class="text-sm text-neutral-600 mt-1">1–4 hrs • statewide</p>
+            <p class="text-sm text-neutral-700 mt-2">Curricular tie‑ins and scavenger hunts designed with educators and youth workers.</p>
+            <div class="mt-4">
+              <a href="#contact" class="text-sm font-medium text-neutral-900 inline-flex items-center gap-1 border-b border-neutral-900/40">Check availability
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="py-16 bg-white border-t border-neutral-200">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Programs &amp; services</h2>
+      <div class="grid md:grid-cols-3 gap-6 mt-8">
+        <div class="rounded-2xl border border-neutral-200 p-6 bg-neutral-50">
+          <h3 class="font-semibold">Cultural Trainings</h3>
+          <ul class="mt-3 space-y-2 text-sm text-neutral-700 list-disc list-inside">
+            <li>Indigenous Minnesota 101</li>
+            <li>Narrative change &amp; representation</li>
+            <li>Working with Native partners</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 p-6 bg-neutral-50">
+          <h3 class="font-semibold">Consulting</h3>
+          <ul class="mt-3 space-y-2 text-sm text-neutral-700 list-disc list-inside">
+            <li>Program design &amp; facilitation</li>
+            <li>Community engagement</li>
+            <li>Policy &amp; HR advisement for nonprofits</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 p-6 bg-neutral-50">
+          <h3 class="font-semibold">Storytelling</h3>
+          <ul class="mt-3 space-y-2 text-sm text-neutral-700 list-disc list-inside">
+            <li>Visit Mnisota content &amp; campaigns</li>
+            <li>Event curation &amp; speaking</li>
+            <li>Educational resources &amp; field experiences</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section id="resources" class="py-16 bg-neutral-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Community resources</h2>
+      <p class="mt-2 text-neutral-700 max-w-2xl">A few starting points about Dakota &amp; Ojibwe homelands, arts, and food sovereignty. Replace or expand these links anytime.</p>
+
+      <div class="grid md:grid-cols-2 gap-6 mt-8">
+        <a href="https://www.mnhs.org/fortsnelling/learn/native-americans/dakota-people" target="_blank" rel="noreferrer" class="block rounded-2xl border border-neutral-200 bg-white p-5 hover:shadow-md">
+          <div class="font-semibold">The Dakota People — MNHS</div>
+          <p class="text-sm text-neutral-600 mt-1">Background on Mni Sota Makoce, Bdote, and Dakota history.</p>
+        </a>
+        <a href="https://owamni.com/" target="_blank" rel="noreferrer" class="block rounded-2xl border border-neutral-200 bg-white p-5 hover:shadow-md">
+          <div class="font-semibold">Owamni</div>
+          <p class="text-sm text-neutral-600 mt-1">Indigenous foods of Mni Sota Makoce; decolonized ingredients.</p>
+        </a>
+        <a href="https://ndncollective.org/" target="_blank" rel="noreferrer" class="block rounded-2xl border border-neutral-200 bg-white p-5 hover:shadow-md">
+          <div class="font-semibold">NDN Collective</div>
+          <p class="text-sm text-neutral-600 mt-1">Indigenous‑led organization advancing narrative change &amp; power‑building.</p>
+        </a>
+        <a href="https://www.facebook.com/visitmnisota" target="_blank" rel="noreferrer" class="block rounded-2xl border border-neutral-200 bg-white p-5 hover:shadow-md">
+          <div class="font-semibold">Visit Mnisota (Facebook)</div>
+          <p class="text-sm text-neutral-600 mt-1">Native‑led storytelling platform sharing places and community news.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-white border-t border-neutral-200">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-start">
+      <div class="aspect-square rounded-3xl bg-gradient-to-br from-rose-200 to-amber-200" aria-hidden="true"></div>
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Our story</h2>
+        <p class="mt-4 text-neutral-700 leading-relaxed">
+          The Native Narrative LLC is an Indigenous‑led social enterprise rooted in Minneapolis that designs place‑based tours, cultural programs, and narrative‑change resources. Our companion platform, <span class="font-medium">Visit Mnisota</span>, uplifts authentic stories from Minnesota’s 11 Tribal Nations and Native communities statewide.
+        </p>
+        <p class="mt-3 text-neutral-700 leading-relaxed">
+          We collaborate with nonprofits, schools, and civic partners to cultivate understanding and belonging through education, art, and experience.
+        </p>
+        <ul class="mt-6 space-y-2 text-sm text-neutral-700 list-disc list-inside">
+          <li>American Indian Cultural Corridor walk on Franklin Ave</li>
+          <li>Custom itineraries &amp; youth scavenger hunts</li>
+          <li>Trainings on respectful engagement &amp; representation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-neutral-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight">Book or inquire</h2>
+          <p class="mt-2 text-neutral-700">Tell us your dates, group size, accessibility needs, and goals. We’ll shape a right‑sized experience.</p>
+
+          <div class="mt-6 space-y-3 text-sm">
+            <p class="inline-flex items-center gap-2"><span aria-hidden="true">📧</span> hello@thenativenarrative.example</p>
+            <p class="inline-flex items-center gap-2"><span aria-hidden="true">📞</span> (612) 000‑0000</p>
+            <a href="https://www.facebook.com/visitmnisota" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 text-neutral-900 border-b border-neutral-900/40 w-fit"><span aria-hidden="true">📘</span> Visit Mnisota on Facebook</a>
+          </div>
+        </div>
+        <form class="rounded-2xl border border-neutral-200 bg-white p-6 grid grid-cols-1 gap-4" onsubmit="event.preventDefault(); alert('Thanks! Your inquiry form is a front-end demo. I can wire it to your email or Google Form.');">
+          <div>
+            <label class="text-sm font-medium" for="name">Name</label>
+            <input id="name" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="Your name" required>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm font-medium" for="email">Email</label>
+              <input id="email" type="email" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="name@example.com" required>
+            </div>
+            <div>
+              <label class="text-sm font-medium" for="phone">Phone</label>
+              <input id="phone" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="(xxx) xxx‑xxxx">
+            </div>
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm font-medium" for="date">Preferred date</label>
+              <input id="date" type="date" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2">
+            </div>
+            <div>
+              <label class="text-sm font-medium" for="group">Group size</label>
+              <input id="group" type="number" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2" placeholder="e.g., 12">
+            </div>
+          </div>
+          <div>
+            <label class="text-sm font-medium" for="goals">What are your goals?</label>
+            <textarea id="goals" class="mt-1 w-full rounded-xl border border-neutral-300 px-3 py-2 min-h-[100px]" placeholder="Tell us what success looks like for your group…"></textarea>
+          </div>
+          <button type="submit" class="rounded-2xl px-5 py-3 bg-neutral-900 text-white text-sm font-semibold hover:bg-neutral-800">Submit inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-neutral-200 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-2xl bg-gradient-to-br from-amber-500 to-rose-500 grid place-items-center" aria-hidden="true"><span class="text-white font-black">NN</span></div>
+          <div>
+            <div class="font-semibold">The Native Narrative LLC</div>
+            <p class="text-xs text-neutral-500">Minneapolis, Mni Sota Makoce</p>
+          </div>
+        </div>
+        <p class="text-xs text-neutral-500">© <span id="year"></span> The Native Narrative LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    const menuIcon = document.getElementById('menuIcon');
+    const closeIcon = document.getElementById('closeIcon');
+    if (menuBtn) {
+      menuBtn.addEventListener('click', () => {
+        const isOpen = !mobileNav.classList.contains('hidden');
+        mobileNav.classList.toggle('hidden');
+        menuIcon.classList.toggle('hidden');
+        closeIcon.classList.toggle('hidden');
+      });
+    }
+  </script>
+</body>
+</html>
